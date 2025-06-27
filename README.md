@@ -64,12 +64,12 @@ All files are delimited using `::`.
 ## 🧪 Results
 
 ### 📊 Linear Regression (Demographic-based Prediction)
-- **RMSE**: ~0.88  
-- **R² Score**: ~0.14  
+- **RMSE**: 1.0910 
+- **R² Score**: 0.14  
 (Shows limited predictive power using just age and occupation)
 
 ### ⭐ SVD Collaborative Filtering
-- **RMSE**: ~0.86  
+- **RMSE**: 1.09  
 - Recommended personalized movies for users with high predicted ratings
 
 ---
@@ -77,9 +77,17 @@ All files are delimited using `::`.
 ## 💡 Sample Output
 
 **Top 10 Movie Recommendations for User 1:**
-1. Movie A  
-2. Movie B  
-3. Movie C  
+
+1. Raiders of the Lost Ark (1981)
+2. Last Days of Disco, The (1998)
+3. Lawrence of Arabia (1962)
+4. Good Will Hunting (1997)
+5. Producers, The (1968)
+6. On Golden Pond (1981)
+7. Graduate, The (1967)
+8. Kramer Vs. Kramer (1979)
+9. Fantasia (1940)
+10. Notorious (1946) 
 ...
 
 ---
